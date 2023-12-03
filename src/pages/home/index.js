@@ -31,7 +31,7 @@ const HomePage = () => {
       {data.length ? (
         <div className="grid">
           {data.map((animal) => (
-            <Link
+            <a
               key={animal.id}
               href={`/${animal.type.toLowerCase()}/${animal.id}`}
               className="pet"
@@ -54,7 +54,7 @@ const HomePage = () => {
                 <p>Color: {animal.colors.primary}</p>
                 <p>Gender: {animal.gender}</p>
               </article>
-            </Link>
+            </a>
           ))}
         </div>
       ) : (
