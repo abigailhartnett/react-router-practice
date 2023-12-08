@@ -1,6 +1,6 @@
 # Git Router Practice
 
-In this Codecademy project, I was tasked with adding client-side routing to an existing site.
+In this Codecademy project, I was tasked with adding client-side routing to an existing site. I did not create the original code—just set up the routing.
 
 ## Instructions from Codecademy
 
